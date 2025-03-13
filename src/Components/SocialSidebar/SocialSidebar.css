@@ -1,0 +1,43 @@
+.sidebar {
+  position: fixed;
+  left: 10px;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sidebar-item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  padding-left: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+.icon {
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+/* Expand Effect */
+.sidebar-item.expand {
+  width: 150px;
+}
+
+.text {
+  font-size: 16px;
+  white-space: nowrap;
+  display: none;
+}
+
+.sidebar-item.expand .text {
+  display: inline;
+}
