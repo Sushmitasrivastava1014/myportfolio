@@ -13,6 +13,7 @@ const Contact = () => {
             </div>
         <div className="contact-section">
             <div className="contact-left">
+                <h1>Let's Talk</h1>
                 <p>I'm currently available to work on new projects or get hired, so feel free to send me a message about anything. You can connect me anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
@@ -27,17 +28,20 @@ const Contact = () => {
                         <img src={location} alt=""/>
                         <p>Bangalore</p>
                     </div>
-                    {/* <div className="contact-detail">
-                        <img src={github} alt=""/>
-                        <p>Github</p>
-                    </div>
-                    <div className="contact-detail">
-                        <img src={linkedin} alt=""/>
-                        <p>Linkedin</p>
-                    </div> */}
-                    
+                
                 </div>
             </div>
+            <form className="contact-right">
+                <label htmlFor="">Your Name</label>
+                <input type="text" placeholder="Enter your name" name='name'/>
+                <label htmlFor=''>Your Email</label>
+                <input type="email" placeholder="enter your email" name='email'/>
+                <label htmlFor=''>Write your message here.</label>
+                <textarea name="message" id=""  rows="8" placeholder="Enter your message"/>
+                <button type="submit" className="contact-submit">Submit</button>
+
+            </form>
+            
             
             
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.css";
+// import { FaGithub } from "react-icons/fa";
 
 // Skills data array
 const skills = [
@@ -9,7 +10,7 @@ const skills = [
   { name: "React.js", icon: "/src/assets/react.svg" },
   { name: "Tailwind", icon: "/src/assets/tailwind.svg" },
   { name: "Styled Components", icon: "💅" },
-  { name: "GitHub", icon: "/src/assets/github.svg" },
+  { name: "GitHub", icon: ""},
   { name: "Netlify", icon: "/src/assets/netlify.svg" },
 ];
 

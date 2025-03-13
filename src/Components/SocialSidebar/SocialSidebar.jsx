@@ -30,7 +30,7 @@ const SocialSidebar = () => {
     },
     {
       id: "profile",
-      text: "Portfolio",
+      text: "Resume",
       icon: <FaUser />,
       bgColor: "#4a5a6a",
       url: "/resume.pdf",
